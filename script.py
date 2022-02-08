@@ -82,14 +82,3 @@ C++, Command line, SQL and GIT. Do you know any of these?
 
 chatbot = ChatBot()
 chatbot.intro()
-
-'''
-       tokens = nlp(" ".join(message_nouns))
-       category = nlp(responses[index][0])
-       word2vec_result = compute_similarity(tokens, category)
-       word2vec_result.sort(key=lambda x: x[2])
-       if len(word2vec_result) < 1:
-           return responses[index][0]
-       else:A
-           return word2vec_result[-1][0]
-       '''
