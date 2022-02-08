@@ -161,11 +161,3 @@ def extract_nouns(tagged_message):
         if tag.startswith("N"):
             message_nouns.append(token)
     return message_nouns
-
-'''
-def compute_similarity(tokens, category):
-    output_list = list()
-    for token in tokens:
-        output_list.append([token.text, category.text, token.similarity(category)])
-    return output_list
-'''
